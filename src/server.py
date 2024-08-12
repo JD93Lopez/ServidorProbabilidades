@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-from probabilities import indiceAleatorio, generarRandom
+from randomizer import indiceAleatorio, generarRandom
 
 app = Flask(__name__)
 
