@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-from probabilities import calculateDamage
+from src.probabilities import calculateDamage
 
 app = Flask(__name__)
 
